@@ -1,0 +1,15 @@
+#include<conio.h>
+#include<stdio.h>
+void main()
+{
+	int i=4,*j,*k;
+	j=&i;
+	printf("%u",j);
+	j=j+1;
+	printf("%u",j);
+	j=j+9;
+	printf("%u",j);
+	k=j=3;
+	printf("%u",k);
+	getch();
+}
